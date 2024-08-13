@@ -1,6 +1,7 @@
 # myflix_app
 
-A new Flutter project.
+I have build this application for movies 
+it just like a prime and netflix 
 
 ## Getting Started
 
