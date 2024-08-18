@@ -25,7 +25,7 @@ class DownloadPage extends StatelessWidget {
             trailing: IconButton(
               onPressed: () {
                 Provider.of<DownlaodProvider>(context, listen: false)
-                    .removeProduct(downloadItem);
+                    .removefilms(downloadItem);
               },
               icon: const Icon(
                 Icons.delete,

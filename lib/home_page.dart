@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myflix_app/download_page.dart';
-import 'package:myflix_app/product_list.dart';
+import 'package:myflix_app/films_list.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -13,7 +13,7 @@ class _HomePageState extends State<HomePage> {
   int currentpage = 0;
 
   List<Widget> pages = [
-    const ProductList(),
+    const filmsList(),
     const DownloadPage(),
   ];
 
