@@ -51,7 +51,7 @@ class _filmsDetailsPageState extends State<filmsDetailsPage> {
             child: Column(
               children: [
                 Text(
-                  '#${widget.films['director']}',
+                  '@${widget.films['director']}',
                   style: Theme.of(context).textTheme.titleSmall,
                 ),
                 Padding(
