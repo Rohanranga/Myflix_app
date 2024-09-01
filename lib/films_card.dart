@@ -18,7 +18,7 @@ class filmsCard extends StatelessWidget {
       margin: const EdgeInsets.all(10),
       decoration: BoxDecoration(
         color: const Color.fromRGBO(216, 240, 253, 1),
-        borderRadius: BorderRadius.circular(20),
+        borderRadius: BorderRadius.circular(30),
       ),
       padding: const EdgeInsets.all(16.0),
       child: Column(
@@ -30,7 +30,7 @@ class filmsCard extends StatelessWidget {
           ),
           const SizedBox(height: 5),
           Text(
-            '#Director',
+            director,
             style: Theme.of(context).textTheme.bodySmall,
           ),
           const SizedBox(height: 5),

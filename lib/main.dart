@@ -4,7 +4,7 @@ import 'package:provider/provider.dart';
 import 'package:myflix_app/home_page.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
