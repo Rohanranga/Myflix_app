@@ -21,7 +21,7 @@ To run the app locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/myflix-app.git
+   git clone https://github.com/Rohanranga/myflix_app.git
    cd myflix-app
    ```
 
